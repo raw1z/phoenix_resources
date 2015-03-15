@@ -1,0 +1,2 @@
+defmodule PhoenixResources do
+end
