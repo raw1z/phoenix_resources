@@ -26,7 +26,7 @@ defmodule PhoenixResources.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:phoenix, github: "raw1z/phoenix", branch: "dynamic-port2"},
+      {:phoenix, "0.10.0"},
       {:inflex, "~> 1.0.0"}
     ]
   end

@@ -5,8 +5,6 @@ defmodule PhoenixResources.Controller do
     {model, model_name} = get_model(opts)
 
     quote do
-      plug :action
-
       def index(conn, params) do
         PhoenixResources.IndexAction.call(conn, unquote(model), format_params(params))
       end
