@@ -3,7 +3,7 @@ defmodule PhoenixResources.Mixfile do
 
   def project do
     [app: :phoenix_resources,
-     version: "0.1.0",
+     version: "0.2.0",
      elixir: "~> 1.0",
      deps: deps]
   end
@@ -26,7 +26,7 @@ defmodule PhoenixResources.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:phoenix, github: "raw1z/phoenix", branch: "dynamic-port2"},
+      {:phoenix, "0.10.0"},
       {:inflex, "~> 1.0.0"}
     ]
   end
