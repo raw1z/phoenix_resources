@@ -26,7 +26,7 @@ defmodule PhoenixResources.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:phoenix, "0.10.0"},
+      {:phoenix, ">= 0.11.0"},
       {:inflex, "~> 1.0.0"}
     ]
   end
