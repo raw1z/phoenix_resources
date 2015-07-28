@@ -27,7 +27,7 @@ defmodule PhoenixResources.Mixfile do
   defp deps do
     [
       {:phoenix, ">= 0.11.0"},
-      {:inflex, "~> 1.0.0"}
+      {:inflex, "~> 1.4.1"}
     ]
   end
 end
