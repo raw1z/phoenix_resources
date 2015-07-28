@@ -1,0 +1,4 @@
+%{"inflex": {:hex, :inflex, "1.4.1"},
+  "phoenix": {:hex, :phoenix, "0.15.0"},
+  "plug": {:hex, :plug, "0.13.1"},
+  "poison": {:hex, :poison, "1.4.0"}}
